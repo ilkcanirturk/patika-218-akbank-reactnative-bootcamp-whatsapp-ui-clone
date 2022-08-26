@@ -1,4 +1,4 @@
-import { FlatList, Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { FlatList, StyleSheet, View } from 'react-native';
 import * as React from 'react';
 import Header from './Header';
 import ChatRoomItem from './ChatRoomItem';

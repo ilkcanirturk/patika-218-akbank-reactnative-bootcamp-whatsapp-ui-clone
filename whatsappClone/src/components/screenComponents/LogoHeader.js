@@ -3,7 +3,7 @@ import React from 'react'
 import Feather from "react-native-vector-icons/Feather";
 import Entypo from "react-native-vector-icons/Entypo";
 
-
+//En üstteki Logo yazısı ve yanındaki ikonların düzenlenmesi.
 const LogoHeader = () => {
   return (
     <View style={styles.container}>

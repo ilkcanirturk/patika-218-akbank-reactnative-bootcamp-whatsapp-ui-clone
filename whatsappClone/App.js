@@ -2,7 +2,7 @@ import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Home from './src/components/screens/Home';
-import SecondPage from './src/components/screens/SecondPage';
+import ChatRoomScreen from './src/components/screens/ChatRoomScreen';
 import LogoHeader from './src/components/screenComponents/LogoHeader';
 
 const App = () => {
@@ -19,7 +19,7 @@ const App = () => {
         />
         <Stack.Screen 
           name="Chat" 
-          component={SecondPage}
+          component={ChatRoomScreen}
           options={{title: 'Chat'}} 
         />
       </Stack.Navigator>

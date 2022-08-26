@@ -5,8 +5,8 @@ import ChatRoomItem from './ChatRoomItem';
 import chatRoomsData from '../data/ChatRooms';
 
 
-
-
+//Header her iki sayfada da gösteriliyor.
+//Chat listesi Flatlist kullanımı. 
 export default function ChatList() {
   return (
     <View style={styles.mainPage}>
@@ -26,6 +26,4 @@ const styles = StyleSheet.create({
     backgroundColor:'white',
     flex: 1
   }
-    
-  
   })

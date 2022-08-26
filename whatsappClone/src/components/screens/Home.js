@@ -1,21 +1,11 @@
 import { View,  ScrollView} from 'react-native';
-import React, { useLayoutEffect } from 'react';
+import React from 'react';
 
 import ChatList from '../screenComponents/ChatList';
 
-const Home = ({navigation}) => {
+const Home = () => {
     
-
-
-  useLayoutEffect(() => {
-    navigation.setOptions({
-      title: 'Sohbetler',
-      headerStyle: { backgroundColor: 'white'},
-      headerTitleStyle: { color: '#007AFF'}
-    });
-  }, [navigation]);  
-
-
+  //ScrollView içerisine Flatlist giriyor. Bu durumun geliştirilmesi gerek.
   return (
     <View>
       <ScrollView showsVerticalScrollIndicator={false}>
